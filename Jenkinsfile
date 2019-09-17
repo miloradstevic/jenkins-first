@@ -3,9 +3,9 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo "Hello World before version"'
+                sh 'echo "Editet through Visual Studio Code"'
                 sh 'python --version'
-                sh 'echo "Hello World after version"'
+                sh 'echo "Commited through git cli"'
             }
         }
     }
