@@ -11,7 +11,7 @@ pipeline {
             steps {
                 echo "Testing"
                 sh 'python --version'
-                input "Continue?"
+                /*input "Continue?"*/
             }
         }
         stage('deploy') {
