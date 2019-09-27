@@ -5,8 +5,8 @@ pipeline {
             steps {
                 echo "Building"
                 sh 'python --version'
-                sh 'terraform -v'
                 sh 'terraform-compliance -h'
+                sh 'terraform -v'
             }
         }
         stage('test') {
