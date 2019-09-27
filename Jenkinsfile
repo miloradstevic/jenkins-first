@@ -6,7 +6,7 @@ pipeline {
                 echo "Building"
                 sh 'python --version'
                 sh 'ls'
-                sh 'terraform -v'
+                sh 'sudo terraform -v'
                 sh 'terraform-compliance -h'
             }
         }
