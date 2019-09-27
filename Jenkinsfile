@@ -1,5 +1,5 @@
 pipeline {
-    agent {docker 'hashicorp/terraform'}
+    agent {label 'master'}
     stages {
         stage('build') {
             steps {
